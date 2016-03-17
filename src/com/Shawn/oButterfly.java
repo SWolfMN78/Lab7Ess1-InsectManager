@@ -12,6 +12,16 @@ public class oButterfly extends oinsect {
     protected String wingColor = "";
     protected String favoriteFlower = "";
 
+    public oButterfly(String name, String color, int wingCount, int legCount, String favFlower){
+        //this is the constructor of a new butterfly.
+        // There is no type so we ref- obutterfly and we don't pass anything in.
+        insectName = name;
+        wingColor = color;
+        numOfWings = wingCount;
+        favoriteFlower = favFlower;
+        numberOfLegs = legCount;
+    }
+
     public String getWingColor(){
         return wingColor;
     }
@@ -23,16 +33,6 @@ public class oButterfly extends oinsect {
     }
     public void setFavoriteFlower(String favoriteFlower){
         favoriteFlower = "";
-    }
-
-    public oButterfly(String name, String color, int wingCount, int legCount, String favFlower){
-        //this is the constructor of a new butterfly.
-        // There is no type so we ref- obutterfly and we don't pass anything in.
-        insectName = name;
-        wingColor = color;
-        numOfWings = wingCount;
-        favoriteFlower = favFlower;
-        numberOfLegs = legCount;
     }
 
     public void printSpeciesData(){
