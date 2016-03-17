@@ -35,10 +35,12 @@ public class oBee extends oinsect {
 
     public void printSpeciesData(){
         if (makesHoney == true){
-            System.out.println("This bee makes the honey! " + insectName + " " + beeColor + " "
+            System.out.println("This bee makes the honey!");
+            System.out.println(insectName + " " + beeColor + " "
                     + " " + numberOfLegs + " " + numOfWings + " " + favFlower);
         }else {
-            System.out.println("This bee does not make the honey" + insectName + " "
+            System.out.println("This bee does not make the honey.");
+            System.out.println(insectName + " "
                     + beeColor + " " + " " + numberOfLegs + " " + numOfWings + " " + favFlower);
         }
     }
