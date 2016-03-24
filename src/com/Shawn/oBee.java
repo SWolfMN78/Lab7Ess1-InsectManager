@@ -4,7 +4,7 @@ package com.Shawn;
  * Created by Wolfknightx on 3/15/2016.
  * This subclass refers to bees and their insect type.
  */
-public class oBee extends oinsect {
+public class oBee extends oInsect {
     protected String beeColor;
     protected boolean makesHoney = false;
     protected String favFlower;
@@ -33,7 +33,7 @@ public class oBee extends oinsect {
         favFlower = "";
     }
 
-    public void printSpeciesData(){
+    public void printSpeciesData(){ //started playing with the information.
         if (makesHoney == true){
             System.out.println("This bee makes the honey!");
             System.out.println(insectName + " " + beeColor + " "
@@ -44,5 +44,4 @@ public class oBee extends oinsect {
                     + beeColor + " " + " " + numberOfLegs + " " + numOfWings + " " + favFlower);
         }
     }
-
 }

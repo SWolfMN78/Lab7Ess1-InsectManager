@@ -1,14 +1,11 @@
 package com.Shawn;
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
 
 /**
  * Created by Wolfknightx on 3/15/2016.
- * This is to be an "extension" of oinsect.
+ * This is to be an "extension" of oInsect.
  */
 
-public class oButterfly extends oinsect {
+public class oButterfly extends oInsect {
     protected String wingColor = "";
     protected String favoriteFlower = "";
 
